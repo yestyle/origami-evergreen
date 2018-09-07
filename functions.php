@@ -80,7 +80,7 @@ add_action('origami_after_footer_widgets', 'origami_evergreen_after_footer_widge
  * This just displays the Google web fonts. Overwrites the function in Origami parent theme.
  */
 function origami_enqueue_google_webfonts(){
-	wp_enqueue_style('google-webfonts', 'http://fonts.googleapis.com/css?family=Roboto+Slab:400');
+	wp_enqueue_style('google-webfonts', 'https://fonts.googleapis.com/css?family=Roboto+Slab:400');
 }
 
 /**
